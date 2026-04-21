@@ -66,6 +66,14 @@ print("Peso:", capi1.get_peso())
 print("Color:", capi1.get_color())
 print("Habitat:", capi1.get_habitat())
 
+print("\n--- SETTERS ---")
+capi1.set_nombre("Capibara Max")
+capi1.set_edad(3)
+capi1.set_peso(40)
+capi1.set_color("marron")
+capi1.set_habitat("laguna")
+
+
 
 
     
