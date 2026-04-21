@@ -59,6 +59,15 @@ class Capibara:
 capi1 = Capibara("Capi", 2, 35, "cafe", "rio")
 capi1.info()
 
+print("\n--- GETTERS ---")
+print("Nombre:", capi1.get_nombre())
+print("Edad:", capi1.get_edad())
+print("Peso:", capi1.get_peso())
+print("Color:", capi1.get_color())
+print("Habitat:", capi1.get_habitat())
+
+
+
     
 
 
