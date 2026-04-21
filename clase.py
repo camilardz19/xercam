@@ -6,7 +6,7 @@ class Capibara:
         self.__color = color
         self.__habitat = habitat
     
-    
+
     def get_nombre(self):
         return self.__nombre
 
@@ -21,3 +21,21 @@ class Capibara:
 
     def get_habitat(self):
         return self.__habitat
+    
+    
+    def set_nombre(self, nombre):
+        self.__nombre = nombre
+
+    def set_edad(self, edad):
+        if edad > 0:
+            self.__edad = edad
+
+    def set_peso(self, peso):
+        if peso > 0:
+            self.__peso = peso
+
+    def set_color(self, color):
+        self.__color = color
+
+    def set_habitat(self, habitat):
+        self.__habitat = habitat
